@@ -1,0 +1,58 @@
+:root {
+  --cream: #fff8e7;
+  --burgundy: #800020;
+  --offwhite: #f9f7f6;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--cream);
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--offwhite);
+  box-shadow: 0 4px 8px var(--burgundy);
+  border-radius: 8px;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar .nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--burgundy);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.cream-bg {
+  background-color: var(--cream);
+}
